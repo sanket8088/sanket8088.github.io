@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #e0dce0;
+        height: 80px;
+        display: flex;
+    justify-content: center;
+}
+
+#company-logo{
+    width: 173px;
+    height: 105px;
+
+}
+
+#watch-pic{
+    width: 550px;
+}
+
+#main-content{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 120px;
+}
+
+#watch-heading{
+    margin-top: 10px;
+    
+}
+
+#watch-heading-content{
+font-size: 50px;
+margin-bottom: 13px;
+}
+
+#watch-description-content{
+    width: 522px;
+    line-height: 20px;
+}
+
+.color-button{
+    width: 80px;
+    height:60px;
+    /* background-color: red; */
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#color-content{
+    display: flex;
+}
+
+#red{
+    background-color: #ca3d22;
+}
+#black{
+    background-color: #23211f;
+}
+#purple{
+    background-color: #8a5362;
+}
+#blue{
+    background-color: #565681;
+}
+#pink{
+    background-color: #e9c7be;
+}
+
+#select-features{
+    margin-bottom:7px
+}
+
+.feature-class {
+    padding: 6px 22px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    background-color:rgb(209, 209, 209);
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    
+}
+
+#watch-screen-controller{
+        margin-bottom: 23px;
+}
+
+#time{
+    margin-right: 15px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#buy-now{
+    margin-top: 10px;
+        background-color: #F9AE02;
+    padding: 12px 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#clock{
+        position: absolute;
+    top: 56%;
+    left: 21%;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+#heart-rate-number{
+        color: white;
+    position: absolute;
+    font-size: 30px;
+    top: 65%;
+    left: 24.3%;
+    display: none;
+}
+
+#heart-beat {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    color: red;
+    font-size: 73px;
+    animation: heartbeat 1s infinite;
+    animation-direction: alternate;
+    display: none;
+ 
+}
+
+@keyframes heartbeat{
+    0%{
+        transform: scale(1.3)
+    };
+    20%{transform: scale(0.8)};
+    50%{transform: scale(1.3)};
+    100%{transform: scale(0.8)}; 
+}
+
+
