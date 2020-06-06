@@ -130,7 +130,7 @@ button{
 #heart-beat {
     position: absolute;
     top: 50%;
-    left: 23%;
+    left: 23.5%;
     color: red;
     font-size: 73px;
     animation: heartbeat 1s infinite;
